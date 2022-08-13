@@ -1,12 +1,10 @@
-
-let a=[];
-let s=0;
-let value =parseInt(prompt("ENTER THE VALUE"));
-for(i=0;i<value;i++){
-    a[i] =parseInt(prompt("ENTER THE VALUE")); 
-    mark=a[i]+s;
-    s=mark;
+let ary =[];
+let k=0,s= parseInt(prompt("ENTER THE VALUE"));
+for(i=0;i<s;i++){
+    ary[i]=parseInt(prompt("ENTER THE VALUE"))
+    total=ary[i]+k;
+    k=total;
 }
-avg=mark/value;
-console.log(mark);
-console.log(avg);
+      avg=k/s;
+      console.log(k);
+      console.log(avg);

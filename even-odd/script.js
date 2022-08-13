@@ -2,8 +2,8 @@
 
 
 let b =parseInt(prompt("enter the value"));
-if(b<=0){
-    console.log("0 athuku kela kudukatha da venna")
+if(b==0){
+    console.log("NEITHER ODD NOR EVEN")
 }
 else if(b%2==0)
 {

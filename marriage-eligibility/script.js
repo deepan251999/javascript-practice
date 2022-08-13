@@ -2,7 +2,7 @@
 let age=parseInt(prompt("ENTER THE AGE "));
 
 
-if(age<=21){
+if(age>=0 && age<=21){
     console.log("NOT ELIGIBLE FOR MARRAIGE");
 }
 else if(age>21 && age<=25){
