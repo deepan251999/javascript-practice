@@ -1,9 +1,7 @@
-let a=parseInt(prompt("ENTER THE VALUE"));
+let number=parseInt(prompt("ENTER THE INTIGER NUMBER"));
+let rev=(number)=>parseInt(String(number)
+.split('')
+.reverse()
+.join(''));
+console.log(rev(number));
 
-let i=0;
-while (i<=a) {
-    n= a%10;
-    s= a/10;
-    console.log(n);
-    console.log(s);
-}
